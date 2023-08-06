@@ -1,0 +1,317 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        color: #333;
+}
+
+header {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+}
+
+.web-name {
+        color: #2CA6D1;
+        font-size: 25.32px;
+}
+
+.nav-list {
+        list-style: none;
+}
+
+.nav-list li {
+        display: inline;
+        margin-right: 15px;
+}
+
+.nav-list a {
+        text-decoration: none;
+        color: black;
+}
+
+.nav-list a:hover {
+        color: #2CA6D1;
+        transition: 0.29s;
+}
+
+.naukri-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/search_bg.png);
+        height: 350px;
+        width: auto;
+        background-position: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.naukri-search h3 {
+        font-size: 2em;
+        color: white;
+}
+
+.form {
+        height: 38px;
+        border: 2px black solid;
+        margin-top: 40px;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+}
+
+.form input {
+        padding: 0 1rem 0 2rem;
+}
+
+.naukri-search p {
+        max-width: 370px;
+        white-space: normal;
+        color: white;
+        margin-top: 40px;
+}
+
+.discover {
+        font-size: 1.25em;
+        width: 170px;
+        height: 35px;
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.discover a {
+        padding-left: 17px;
+        margin-top: 5px;
+}
+
+.discover:hover {
+        background-color: white;
+        color: black;
+        transition: 0.6s;
+}
+
+.marketing {
+        display: flex;
+        height: 350px;
+        position: relative;
+}
+
+.marketing img {
+        height: 250px;
+        margin: 30px 60px 0px 0px;
+        width: 500px;
+}
+
+.marketing p {
+        margin-top: 100px;
+        font-weight: 500;
+        min-width: 400px;
+        margin-left: 30px;
+        display: flex;
+        white-space: normal;
+        height: max-content;
+}
+
+.marketing h2 {
+        position: absolute;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 140px;
+}
+
+.apply {
+        margin-left: 120px;
+        margin-top: 15px;
+        font-size: 1.25em;
+        width: 170px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.apply:hover {
+        background-color: #2CA6D1;
+        color: black;
+        transition: 0.6s;
+}
+
+.industrial-job {
+        display: flex;
+        height: 350px;
+        position: relative;
+}
+
+.industrial-job img {
+        display: flex;
+        height: 250px;
+        margin: 20px 0px 0px 60px;
+        width: 450px;
+}
+
+.industrial-job p {
+        margin-top: 150px;
+        font-weight: 500;
+        min-width: 400px;
+        margin-left: 30px;
+        display: flex;
+        white-space: normal;
+}
+
+.industrial-job h2 {
+        position: absolute;
+        display: flex;
+        margin-top: 60px;
+        margin-left: 100px;
+}
+
+.remarks-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.remarks h1 {
+        width: 300px;
+        display: block;
+        white-space: nowrap;
+        margin-right: 100px;
+}
+
+.std-remarks {
+        margin-top: 40px;
+        height: 380px;
+        min-width: 450px;
+        max-width: 450px;
+        margin-right: -10px;
+        background-color: lightgrey;
+        border-radius: 15px;
+        border: 2px solid;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.std-remarks img {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 110px;
+        border-radius: 100px;
+        overflow: hidden;
+        margin-left: 40px;
+        margin-top: 30px;
+}
+
+.std-remarks img:hover {
+        transform: scale(1.2);
+}
+
+.std-remarks p {
+        color: #2CA6D1;
+        margin-top: 60px;
+}
+
+.std-remarks h2 {
+        display: flex;
+        font-weight: 700;
+        margin-left: 160px;
+        margin-top: -90px;
+}
+
+.slider button {
+        height: max-content;
+        width: max-content;
+        border-radius: 105px;
+        overflow: hidden;
+        border: #333;
+}
+
+.slider {
+        margin-left: 200px;
+
+}
+
+.get-in-touch {
+        border: 2px black solid;
+        margin-top: 100px;
+        background-color: #2CA6D1;
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        /* Change the flex-direction to column */
+        align-items: center;
+        /* Center the content horizontally */
+        padding: 20px;
+        /* Add some padding for spacing */
+}
+
+.get-in-touch h1 {
+        color: black;
+        /* Add this line to make the text visible on the background */
+        font-size: 44px;
+        /* Adjust the font size as needed */
+        margin-bottom: 20px;
+        /* Add margin at the bottom for spacing */
+}
+
+.get-in-touch form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+}
+
+.get-in-touch label {
+        color: black;
+        margin-bottom: 5px;
+        margin-right: 210px;
+}
+
+.get-in-touch input {
+        height: 40px;
+        width: 300px;
+        padding: 5px;
+        margin-bottom: 15px;
+}
+
+.get-in-touch button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+}
+
+.get-in-touch button:hover {
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+}
+
+.copyright {
+        height: 20px;
+        display: flex;
+}
+
+.second {
+        margin-left: 400px;
+}
